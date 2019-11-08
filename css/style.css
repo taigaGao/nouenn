@@ -42,8 +42,12 @@ header{
     z-index: 10;
 }
 
-nav{
+.flex{
     display: flex;
+    
+}
+
+nav{
     justify-content: space-between;
 }
 
@@ -102,6 +106,13 @@ nav{
 
 /* メインコンテンツ */
 
+.section-message{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 70px 0;
+}
+
 .underbar{
     background: linear-gradient(transparent 50%, yellow 20%);
     display: inline-block;
@@ -109,8 +120,13 @@ nav{
 
 .heading{
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    padding-top: 100px;
+}
+
+.heading p{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 0 25px 0;
 }
 
 .heading-logo{
@@ -123,9 +139,289 @@ nav{
     font-weight: bold;
     font-size: 26px;
     line-height: 65px;
+    padding-top: 70px;
     padding-bottom: 40px;
 }
 
+.section-end-yellow img{
+    width: 100%;
+    transform:rotate(180deg);
+    background-color: #FFFDF6;
+}
+
+.section-end-white img{
+    width: 100%;
+}
+
+.commit-section{
+    background-color: #FFFDF6;
+}
+
+
+/* commit-groupe-left 左寄せのもの */
+
+.commit-groupe-left{
+    padding-bottom: 60px;
+}
+
+.commit-groupe-right{
+    padding-bottom: 60px;
+}
+
+.commit-line-left{
+    padding-top: 20px;
+    padding-right: 12px;
+}
+
+.commit-line-right{
+    padding-top: 20px;
+    padding-left: 12px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.commit-image-right{
+    padding-right: 45px;
+}
+
+.commit-icon{
+    height: 120px;
+    margin-bottom: 36px;
+}
+
+.commit-icon img{
+    padding-right: 25px;
+}
+
+.commit-title{
+    padding-right: 25px;
+}
+
+.commit-icon p{
+    font-size: 32px;
+    line-height: 54px;
+}
+
+.commit-message{
+    width: 420px;
+    height: 200px;
+}
+
+.commit-message p{
+    font-size: 18px;
+    line-height: 31px;
+}
+
+/* オンラインストア */
+.stores{
+    justify-content: space-between;
+}
+
+.stores p{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.set-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #295525;
+    /* line-height: 37px; */
+    padding-bottom: 30px;
+}
+
+.set-value{
+    font-size: 22px;
+    font-weight: bold;
+    /* line-height: 34px; */
+    padding-bottom: 25px;
+}
+
+.learge-font{
+    font-size: 40px;
+}
+
+.store-icon img{
+    
+    padding: 15px 15px 28px 15px ;
+}
+
+.stores{
+    margin-bottom: 60px;
+}
+
+.store{
+    text-align: center;
+    width: 330px;
+    height: 420px;
+    box-shadow: 1px 2px 4px gray;
+}
+
+.more{
+    text-align:center;
+    padding-bottom: 40px;
+}
+
+.btn{
+    background-color: #295525;   
+    display: inline-block;
+    border-radius: 90px;
+    padding:0 55px;
+    line-height: 62px;
+    font-size: 22px;
+    color:white;
+}
+
+/* ブログ */
+
+.blog-section{
+    background-color: #FFFDF6;
+}
+
+.blogs{
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom:70px;
+}
+
+.blog-card{
+    top :0;
+    width: 330px;
+    box-shadow: 1px 2px 4px gray;
+}
+
+.blog-image{
+    position: relative;
+}
+
+.blog-image img{
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+}
+
+.blog-image p{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    padding: 4px 17px;
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.blog-date{
+    color: #295525;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.blog-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+/* 季節 */
+
+.seasons{
+    justify-content: space-between;
+    /* border-style: 5px dashed black; */
+    border: dashed;
+    padding:70px 24px 78px 24px;
+}
+
+.season{
+    text-align: center;
+}
+
+.season-icon{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.season-image{
+    position: absolute;
+    top: 38px;
+    left: 49px;
+}
+
+.season-name{
+    font-size: 36px;
+    font-weight: bold;
+    color: #295525;
+    padding-bottom: 40px;
+}
+
+.season-event{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.season-right{
+    padding-top: 57px;
+    
+}
+
+
+/* ギャラリー */
+
+.gallery-section{
+    background-color: #FFFDF6;
+}
+
+.galleries{
+    padding:0 65px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.gallery-card{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    margin-bottom: 27px;
+}
+
+.section-end img{
+    width: 100%;
+}
+
+/* グローバルフッター */
+
+.gloabal-footer{
+    text-align: center;
+}
+
+.gloabal-footer p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-navi{
+    padding-top: 45px;
+    padding-bottom: 30px;  
+    /* width: 620px; */
+    /* width: 50%; */
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.footer-navi p{
+    padding: 0 33px;
+}
+
+.footer-navi-p{
+    border-left: ridge;
+    border-right: ridge;
+}
 
 /* フッター */
 
@@ -141,8 +437,3 @@ footer p{
     line-height: 50px;
 }
 
-.section-end-yellow img{
-    width: 100%;
-    transform:rotate(180deg);
-    background-color: #FFFDF6;
-}
