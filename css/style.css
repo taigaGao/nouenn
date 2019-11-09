@@ -60,11 +60,14 @@ nav{
     font-size: 18px;
     padding-bottom: 10px;
     font-weight: bold;
+    color: #333333;
+    display: block;
 }
 .nav-en{
     font-size: 14px;
     color: #295525;
     font-weight: bold;
+    display: block;
 }
 
 .nav-logo{
@@ -143,11 +146,11 @@ nav{
     padding-bottom: 40px;
 }
 
-.section-end-yellow img{
+/* .section-end-yellow img{
     width: 100%;
     transform:rotate(180deg);
     background-color: #FFFDF6;
-}
+} */
 
 .section-end-white img{
     width: 100%;
@@ -270,6 +273,10 @@ nav{
     line-height: 62px;
     font-size: 22px;
     color:white;
+}
+
+.instabtn{
+    padding:0 27px;
 }
 
 /* ブログ */
@@ -396,6 +403,10 @@ nav{
 
 /* グローバルフッター */
 
+.nav-img-footer{
+    width: 120px;
+}
+
 .gloabal-footer{
     text-align: center;
 }
@@ -403,10 +414,11 @@ nav{
 .gloabal-footer p{
     font-size: 16px;
     font-weight: bold;
+    padding: 10px 0;
 }
 
 .footer-navi{
-    padding-top: 45px;
+    padding-top: 20px;
     padding-bottom: 30px;  
     /* width: 620px; */
     /* width: 50%; */
