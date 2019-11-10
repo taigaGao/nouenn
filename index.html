@@ -5,32 +5,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>農園サイト</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/responsive.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <nav class="flex">
+            <nav class="header-navi flex">
                 <div class="nav-menu">
-                    <a href="#" class="nav-jp">当園について</a>
-                    <a href="#" class="nav-en">ABOUT</a>
+                    <a href="about.html" class="nav-jp">当園について</a>
+                    <a href="about.html" class="nav-en">ABOUT</a>
                 </div>
                 <div class="nav-menu">
-                    <a href="#" class="nav-jp">お知らせ</a>
-                    <a href="#" class="nav-en">NEWS</a>
+                    <a href="news.html" class="nav-jp">お知らせ</a>
+                    <a href="news.html" class="nav-en">NEWS</a>
                 </div>
                 <div class="nav-logo">
+                    <a href="index.html">
+                        <img  class="nav-img" src="img/top-img/header-logo.png" alt="ヘッダーナビゲーションのロゴ画像">
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <a href="store.html" class="nav-jp">品目・ストア</a>
+                    <a href="store.html" class="nav-en">STORE</a>
+                </div>
+                <div class="nav-menu">
+                    <a href="contact.html" class="nav-jp">お問い合わせ</a>
+                    <a href="contact.html" class="nav-en">CONTACT</a>
+                </div>
+            </nav>
+            <nav class="header-navi-responsive">
+                <a href="index.html">
                     <img  class="nav-img" src="img/top-img/header-logo.png" alt="ヘッダーナビゲーションのロゴ画像">
-                </div>
-                <div class="nav-menu">
-                    <a href="#" class="nav-jp">品目・ストア</a>
-                    <a href="#" class="nav-en">STORE</a>
-                </div>
-                <div class="nav-menu">
-                    <a href="#" class="nav-jp">お問い合わせ</a>
-                    <a href="#" class="nav-en">CONTACT</a>
-                </div>
+                </a>
+                <p><span class="fa fa-bars menu-icon"></span>MENU</p>
             </nav>
         </div>
     </header>
@@ -44,12 +54,17 @@
         </div>
     </div>
     <div class="main">
+        <div class="top-message-resposive">
+            <h1>しま農園の野菜には</h1><br>
+            <h1>選ばれる</h1><br>
+            <h1>理由があります</h1>
+        </div>
         <div class="concept-section">
             <div class="container">
                 <div class="heading">
                     <img class="heading-logo" src="./img/top-img/h-icon-1.png" alt="コンセプトロゴ">
                     <p class="heading-tile">コンセプト</p>
-                    <img src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
+                    <img class="heading-underbar" src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
                 </div>
                 <div class="concept-message">
                     <p class="underbar">「野菜大好き！！」</p>
@@ -61,7 +76,7 @@
                 </div>
             </div>
             <div class="section-end-yellow">
-                    <img src="./img/top-img/tttz.png" alt="セクション分割">
+                <img src="./img/top-img/tttz.png" alt="セクション分割">
             </div>
         </div>
         <div class="commit-section">
@@ -69,7 +84,7 @@
                 <div class="heading">
                     <img class="heading-logo" src="./img/top-img/h-icon-2.png" alt="commitロゴ">
                     <p class="heading-tile">こだわり</p>
-                    <img src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
+                    <img class="heading-underbar" src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
                 </div>
                 <div class="section-message">
                     <p>しま農園には３つのこだわりがあります。</p>
@@ -77,7 +92,7 @@
                 <div class="commit-groupe-left">
                     <div class="commit flex">
                         <div class="commit-line-left">
-                            <img src="img/top-img/commit-bg.png" alt="コンテンツ枠">
+                            <img class="Ivy-image" src="img/top-img/commit-bg.png" alt="コンテンツ枠">
                         </div>
                         <div class="commit-content">
                             <div class="commit-icon flex">
@@ -98,7 +113,7 @@
                     </div>
                 </div>
                 <div class="commit-groupe-right">
-                        <div class="commit flex">
+                        <div class="commit commit-rgiht flex">
                             <div class="commit-image">
                                 <img class="commit-image-right" src="img/top-img/commit2.png" alt="">
                             </div>
@@ -116,21 +131,21 @@
                                 </div>
                             </div>
                             <div class="commit-line-right">
-                                <img src="img/top-img/commit-bg.png" alt="コンテンツ枠">
+                                <img class="Ivy-image" src="img/top-img/commit-bg.png" alt="コンテンツ枠">
                             </div>       
                         </div>
                 </div>
                 <div class="commit-groupe-left">
                     <div class="commit flex">
                         <div class="commit-line-left">
-                            <img src="img/top-img/commit-bg.png" alt="コンテンツ枠">
+                            <img class="Ivy-image" src="img/top-img/commit-bg.png" alt="コンテンツ枠">
                         </div>
                         <div class="commit-content">
                             <div class="commit-icon flex">
                                 <img src="img/top-img/commit-icon3.png" alt="test">
                                 <div class="commit-title">
-                                    <p>その野菜の</p>
-                                    <p><span class="underbar">一番いい状態</span>を届ける</p>
+                                    <p>おいしさを<span class="underbar">ぎゅっと</span></p>
+                                    <p>詰め込む</p>
                                 </div>
                             </div>
                             <div class="commit-message">
@@ -153,7 +168,7 @@
                     <div class="heading">
                         <img class="heading-logo" src="./img/top-img/h-icon-3.png" alt="コンセプトロゴ">
                         <p class="heading-tile">オンラインストア</p>
-                        <img src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
+                        <img class="heading-underbar" src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
                     </div>
                     <div class="section-message">
                             <p>しま農園では毎週火曜日に定期便を配達しています。</p>
@@ -200,13 +215,13 @@
                 <div class="heading">
                     <img class="heading-logo" src="./img/top-img/h-icon-4.png" alt="commitロゴ">
                     <p class="heading-tile">お知らせ</p>
-                    <img src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
+                    <img class="heading-underbar" src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
                 </div>
                 <div class="section-message">
                     <p>しま農園の愉快な日々を綴っています。</p>
                 </div>
                 <div class="blogs flex">
-                    <div class="blog-card">
+                    <div class="blog-card-index">
                         <div class="blog-image">
                             <img src="img/top-img/blog1.jpg" alt="記事1">
                             <p>イベント</p>
@@ -214,7 +229,7 @@
                         <p class="blog-date">2018年◯月◯日</p>
                         <p class="blog-title">第５回親子イベントの様子</p>
                     </div>
-                    <div class="blog-card">
+                    <div class="blog-card-index">
                         <div class="blog-image">
                             <img src="img/top-img/blog2.jpg" alt="記事1">
                             <p>イベント</p>
@@ -222,7 +237,7 @@
                         <p class="blog-date">2018年◯月◯日</p>
                         <p class="blog-title">おのれ台風のやつめ・・・・</p>
                     </div>
-                    <div class="blog-card">
+                    <div class="blog-card-index">
                         <div class="blog-image">
                             <img src="img/top-img/blog3.jpg" alt="記事1">
                             <p>イベント</p>
@@ -244,7 +259,7 @@
                     <div class="heading">
                         <img class="heading-logo" src="./img/top-img/h-icon-5.png" alt="コンセプトロゴ">
                         <p class="heading-tile">親子イベント</p>
-                        <img src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
+                        <img class="heading-underbar" src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
                     </div>
                     <div class="section-message">
                             <p>しま農園では親子イベントを通して食育活動をしています。</p>
@@ -261,6 +276,7 @@
                         <div class="season-right">
                             <img src="img/top-img/event-icon-arrow.png" alt="右へ">
                         </div>
+                       
                         <div class="season">
                             <div class="season-icon">
                                 <img class="season-photo" src="img/top-img/event2.png" alt="春">
@@ -302,7 +318,7 @@
                 <div class="heading">
                     <img class="heading-logo" src="./img/top-img/h-icon-6.png" alt="commitロゴ">
                     <p class="heading-tile">ギャラリー</p>
-                    <img src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
+                    <img class="heading-underbar" src="./img/top-img/heading-bg.png" alt="セクションタイトル下線">
                 </div>
                 <div class="galleries">
                     <div class="gallery-card flex">
