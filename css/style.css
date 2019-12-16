@@ -112,16 +112,23 @@ nav{
     width: 100%;
     height: 925px;
     background-size: cover;
+    /* text-align: right; */
 }
 
 .top-message{
     position: relative;
     top: 225px;
-    /* left: 990px; */
+    /* float:right; */
+    display : block;
+    /* left: 100%; */
     margin-right: 0;
     margin-left: auto;
+    right: 100px;
     writing-mode: vertical-rl;
+    width: 100px;
+    
 }
+
 
 .top-message-resposive{
     display: none;
@@ -135,6 +142,7 @@ nav{
     background-color: rgb(255, 255, 255, 0.8);
     display: inline-block;
     letter-spacing: 14px;
+    
 }
 
 
@@ -533,8 +541,8 @@ about(当園について)
     margin-top: 100px;
     height: 220px;
     width: 100%;
-    /* background-size: contain;
-    background-repeat:no-repeat; */
+    background-size: cover;
+    background-repeat:no-repeat;
     text-align: center;
 }
 
@@ -617,8 +625,8 @@ news(お知らせ)
     margin-top: 100px;
     height: 220px;
     width: 100%;
-    /* background-size: contain;
-    background-repeat:no-repeat; */
+    background-size: cover;
+    background-repeat:no-repeat;
     text-align: center;
 }
 
@@ -671,8 +679,8 @@ store(品目・ストア)
     margin-top: 100px;
     height: 220px;
     width: 100%;
-    /* background-size: contain;
-    background-repeat:no-repeat; */
+    background-size: cover;
+    background-repeat:no-repeat;
     text-align: center;
 }
 
@@ -715,8 +723,8 @@ contact(お問い合わせ)
     margin-top: 100px;
     height: 220px;
     width: 100%;
-    /* background-size: contain;
-    background-repeat:no-repeat; */
+    background-size: cover;
+    background-repeat:no-repeat;
     text-align: center;
 }
 
